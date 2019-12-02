@@ -4,13 +4,21 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: rgba(245,245,245);
+  /* margin: 0 auto; */
+
 }
 
 .container {
-  margin: 80px auto 0 auto;
+  margin: 80px auto; 
   max-width: 1200px;
 }
 
 .nav-container {
   margin: auto;
+}
+
+a {
+  text-decoration: none;
+
 }
